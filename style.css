@@ -1,7 +1,7 @@
 body{
     background-image: url("https://static1.squarespace.com/static/53b4d49de4b00894c69c7a0c/t/53f55bdde4b0a95765d3ec7f/1408588765988/Mint+Watercolor+Wallpaper_Pixejoo.jpg");
     margin: 25px;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Slabo 300px', serif;
 }
 
 
@@ -18,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: mintcream;
 }
 
 li {
@@ -27,13 +27,13 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #1799B5;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #1799B5;
+    color: mintcream;
 }

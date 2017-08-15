@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bootstrap.min.css">
         <link rel ="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="bootstrap.min.js"></script>
         <title> About Us </title>
         
@@ -16,19 +17,47 @@
             <h1>About Us</h1>
             <hr>
             <div class="row">
-    
+                <!--For images, width*1.77 = height on my phone.-->
                 <div class="col-xs-8 col-sm-4" style="background-color:paleturquoise;">
-                    <p><strong>Cassie</strong></p>
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#C">Cassie</button>
+                    <div id="C" class="collapse">
+                    
+                    <img src="/Users/gwc/Desktop/pix/loveheart.jpg" alt="Cassie" width="144" height="255" >
+                    <p>I'm Cassie, I'm 15, and I go to Belmont High.</p>
+                </div>
                 </div>
                 <div class="col-xs-8 col-sm-4" style="background-color:lightcyan;">
-                    <p><strong>Hannah</strong></p>
-                    <p></p>
+                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#H">Hannah</button>
+                    <div id="H" class="collapse">
+                    
+                    <img src="/Users/gwc/Desktop/pix/Majestic_Bud.jpg" alt="Hannah" width="144" height="255">
+                    <p>I'm Hannah, I'm 15, and I go to Milton High.</p>
+                </div>
                 </div>
                 <div class="col-xs-8 col-sm-4" style="background-color:paleturquoise;">
-                    <p><strong>Jamie</strong></p>
+                     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#J">Jamie</button>
+                    <div id="J" class="collapse">
+  
+                    <img src="/Users/gwc/Desktop/pix/nomore.jpg" alt="Jamie" width="144" height="255">
+                    <p>I'm Jamie, I'm 16, and I go to Ursuline Academy.</p>
+                </div>
                 </div>
             </div>
-
+            <div class="row">
+                <div class= "col-sm-12" style="background-color: lightcyan;">
+                    <br>
+                    <br>
+                    <p>We created this website to give people something fun for every day, that you can do with your friends and family to spice things up. We made this site during the Girls Who Code summer 2017 program as our final project. We hope you're able to complete every day, and if not, remember to just have fun!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12" style="background-color: paleturquoise">
+                    <br>
+                    <br>
+                    <p><strong>Citations:</strong></p>
+                    <p>Background: https://static1.squarespace.com/static/53b4d49de4b00894c69c7a0c/t/53f55bdde4b0a95765d3ec7f/1408588765988/Mint+Watercolor+Wallpaper_Pixejoo.jpg</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>

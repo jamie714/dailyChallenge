@@ -28,9 +28,29 @@ if (month === 0) {
 }
 
 
+var dayofweek = new Date();
+var day = dayofweek.getDay();
+var weekday = "Monday";
+if (day === 0) {
+    weekday = "Sunday";
+} else if (day === 1) {
+    weekday = "Monday";
+} else if (day === 2) {
+    weekday = "Tuesday";
+} else if (day === 3) {
+    weekday = "Wednesday";
+} else if (day === 4) {
+    weekday = "Thursday";
+} else if (day === 5) {
+    weekday = "Friday";
+} else if (day === 6) {
+    weekday = "Saturday";
+}
+
+
 
 var fulldate = new Date();
 var day = fulldate.getDate();
-document.getElementById("DATE").innerHTML = "Today is " + mymonth + " " + day + ".";
+document.getElementById("DATE").innerHTML = "Today is " + mymonth + " " + day + ". Happy " + weekday + "!";
 
 

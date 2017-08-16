@@ -45,3 +45,9 @@ li a:hover {
     background-color: #1799B5;
     color: mintcream;
 }
+.pagination {
+    color:aquamarine 
+}
+.jumbotron{
+    background-color: transparent!important;
+}

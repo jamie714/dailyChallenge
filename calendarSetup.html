@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= "stylesheet" href="calendarCss.css">
+<script src=calendardata.js></script>
+<script>/*var day = document.getElementById('day31')
+        day.onload = function() {correctDays()};*/</script>
+</head>  
+<body onload = "changeMonth(); correctDays();">
+
+<h1>Calendar</h1>
+
+<div class="month" >      
+  <ul>
+    <li class="prev"><button onclick="changeMonthsBackward(); correctDays();">&#10094;</button></li>
+    <li class="next"><button onclick="changeMonthsForward(); correctDays();">&#10095;</button></li>
+    <li style="text-align:center" id = "monthChange">
+    </li>
+  </ul>
+</div>
+
+<ul class="days">  
+  <li><a>1</a></li>
+  <li><a>2</a></li>
+  <li><a>3</a></li>
+  <li><a>4</a></li>
+  <li><a>5</a></li>
+  <li><a>6</a></li>
+  <li><a>7</a></li>
+  <li><a>8</a></li>
+  <li><a>9</a></li>
+  <li><a>10</a></li>
+  <li><a>11</a></li>
+  <li><a>12</a></li>
+  <li><a>13</a></li>
+  <li><a>14</a></li>
+  <li><a>15</a></li>
+  <li><a>16</a></li>
+  <li><a>17</a></li>
+  <li><a>18</a></li>
+  <li><a>19</a></li>
+  <li><a>20</a></li>
+  <li><a>21</a></li>
+  <li><a>22</a></li>
+  <li><a>23</a></li>
+  <li><a>24</a></li>
+  <li><a>25</a></li>
+  <li><a>26</a></li>
+  <li><a>27</a></li>
+  <li><a>28</a></li>
+  <li><a>29</a></li>
+  <li id = 'day30' ><a>30</a></li>
+  <li id = 'day31'><a>31</a></li>
+</ul>
+    
+
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> Search </title>
+<head>
+    <link rel="icon" 
+      type="image/png" 
+      href="/Users/gwc/Desktop/pix/UFO.png" >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!--<script type = "text/javascript" src = "helpme.json">
+    function load(){
+        console.log("There there");
+        var myData = JSON.parse("dates");
+    }
+    </script>
+    <script type="text/javascript" src = "pleaseHelp.js"></script>-->
+<script>
+    dates = {
+  "database": [
+    {
+      "Date": "1-Jan",
+      "National Day": "New Year's Day",
+      "Associated Challenge": "Make a New Year's resolution - and keep it!",
+      "Resources: description": "An online to-do list to manage your goals",
+      "Resources: link": "https://todoist.com/"
+    },
+    {
+      "Date": "2-Jan",
+      "National Day": "Run it up the Flagpole and See If Anyone Salutes It Day",
+      "Associated Challenge": "Do something new that you've been wanting to do for a long time",
+      "Resources: description": "Benefits of doing new things",
+      "Resources: link": "http://www.beliefnet.com/columnists/everydayinspiration/2014/03/the-benefits-of-trying-new-things.html"
+    },
+    {
+      "Date": "3-Jan",
+      "National Day": "Festival of Sleep Day",
+      "Associated Challenge": "Take a nap",
+      "Resources: description": "Benefits to napping",
+      "Resources: link": "https://michaelhyatt.com/why-you-should-take-a-nap-every-day.html"
+    },
+    {
+      "Date": "4-Jan",
+      "National Day": "Trivia Day",
+      "Associated Challenge": "Learn something new",
+      "Resources: description": "A website with interesting information",
+      "Resources: link": "http://www.todayifoundout.com/"
+    },
+    {
+      "Date": "5-Jan",
+      "National Day": "Bird Day",
+      "Associated Challenge": "Go bird watching",
+      "Resources: description": "A nonprofit devoted to helping birds",
+      "Resources: link": "https://helpwildbirds.org/"
+    }
+      ]
+      }
+    </script>
+    
+</head>
+<body >
+    <script>
+        var inputThing = document.getElementById("searchInput").value;
+        function search(){
+            console.log("function");
+            for (var i = 0; i<5; i++){
+                console.log('loop');
+                console.log(inputThing);
+                document.getElementById("log").innerHTML = inputThing;
+                if(dates["database"][0]["Date"] === toString(inputThing)){
+                    
+                };
+            };
+        };
+    </script>
+  <div class="input-group">
+      <input type="search" class="form-control" placeholder="Search" name="search" id="searchInput" value = " ">
+      <div class="input-group-btn">
+        <button onclick="search()"  type="submit" ><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </div>
+<p id="log"></p>
+
+    
+    <!--var parsed = JSON.parse("dates");
+    var input = document.getElementById("searchInput").innerHTML;
+    conso   le.log("I am here")
+        
+    
+    document.getElementById("btn").onclick = function() {console.log("I am here");
+        var i = 0;
+    for (i = 0; i < 5; i++) {
+        if (parsed[database][i]["Date"] === input) {
+            console.log("It worked!!!");
+        }
+    }
+    };
+    </script>
+   -->
+</body>
+</html>    

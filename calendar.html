@@ -6,8 +6,6 @@
 <link rel= "stylesheet" href="calendarCss.css">
    
 <script src=calendardata.js></script>
-<script>/*var day = document.getElementById('day31')
-        day.onload = function() {correctDays()};*/</script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -31,7 +29,7 @@
     <div class="jumbotron">
 <h1>Calendar</h1>
 
-<div class="month" >      
+<div class="month">      
   <ul>
     <li class="prev"><button onclick="changeMonthsBackward(); correctDays();">&#10094;</button></li>
     <li class="next"><button onclick="changeMonthsForward(); correctDays();">&#10095;</button></li>
@@ -41,37 +39,37 @@
 </div>
 
 <ul class="days">  
-  <button type="button" class="btn btn-link" ><li><a href="challengeinput.html">1</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">2</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">3</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">4</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">5</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">6</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">7</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">8</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">9</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">10</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">11</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">12</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">13</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">14</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">15</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">16</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">17</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">18</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">19</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">20</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">21</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">22</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">23</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">24</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">25</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">26</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">27</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">28</a></li></button>
-  <button type="button" class="btn btn-link"><li><a href="challengeinput.html">29</a></li></button>
-  <button type="button" class="btn btn-link"><li id = 'day30' ><a href="challengeinput.html">30</a></li></button>
-  <button type="button" class="btn btn-link"><li id = 'day31'><a href="challengeinput.html">31</a></li></button>
+  <button type="button" class="btn btn-link" id="day1" value = 1 onclick = "getLog(getDayNum(value))"><li><a href="challengeinput.html">1</a></li></button>
+  <button type="button" class="btn btn-link" id="day2" value = 2><li><a href="challengeinput.html" >2</a></li></button>
+  <button type="button" class="btn btn-link" id="day3" value=3><li><a href="challengeinput.html">3</a></li></button>
+  <button type="button" class="btn btn-link"id="day4" value=4><li><a href="challengeinput.html">4</a></li></button>
+  <button type="button" class="btn btn-link" id="day5" value=5><li><a href="challengeinput.html">5</a></li></button>
+  <button type="button" class="btn btn-link" id = "day6"value = 6><li><a href="challengeinput.html">6</a></li></button>
+  <button type="button" class="btn btn-link" id = "day7" value = 7><li><a href="challengeinput.html">7</a></li></button>
+  <button type="button" class="btn btn-link" id = "day8" value = 8><li><a href="challengeinput.html">8</a></li></button>
+  <button type="button" class="btn btn-link" id = "day9" value = 9><li><a href="challengeinput.html">9</a></li></button>
+  <button type="button" class="btn btn-link" id = "day10" value = 10><li><a href="challengeinput.html">10</a></li></button>
+  <button type="button" class="btn btn-link" id = "day11" value = 11><li><a href="challengeinput.html">11</a></li></button>
+  <button type="button" class="btn btn-link" id = "day12"value = 12><li><a href="challengeinput.html">12</a></li></button>
+  <button type="button" class="btn btn-link" id = "day13" value = 13><li><a href="challengeinput.html">13</a></li></button>
+  <button type="button" class="btn btn-link" id = "day14" value = 14><li><a href="challengeinput.html">14</a></li></button>
+  <button type="button" class="btn btn-link" id = "day15" value = 15><li><a href="challengeinput.html">15</a></li></button>
+  <button type="button" class="btn btn-link" id = "day16" value = 16><li><a href="challengeinput.html">16</a></li></button>
+  <button type="button" class="btn btn-link" id = "day17" value = 17><li><a href="challengeinput.html">17</a></li></button>
+  <button type="button" class="btn btn-link" id = "day18" value = 18><li><a href="challengeinput.html">18</a></li></button>
+  <button type="button" class="btn btn-link" id = "day19" value = 19><li><a href="challengeinput.html">19</a></li></button>
+  <button type="button" class="btn btn-link" id = "day20" value = 20><li><a href="challengeinput.html">20</a></li></button>
+  <button type="button" class="btn btn-link" id = "day21" value = 21><li><a href="challengeinput.html">21</a></li></button>
+  <button type="button" class="btn btn-link" id = "day22" value = 22><li><a href="challengeinput.html">22</a></li></button>
+  <button type="button" class="btn btn-link" id = "day23" value = 23><li><a href="challengeinput.html">23</a></li></button>
+  <button type="button" class="btn btn-link" id = "day24" value = 24><li><a href="challengeinput.html">24</a></li></button>
+  <button type="button" class="btn btn-link" id = "day25" value = 25><li><a href="challengeinput.html">25</a></li></button>
+  <button type="button" class="btn btn-link" id = "day26" value = 26><li><a href="challengeinput.html">26</a></li></button>
+  <button type="button" class="btn btn-link" id = "day27" value = 27><li><a href="challengeinput.html">27</a></li></button>
+  <button type="button" class="btn btn-link" id = "day28" value = 28><li><a href="challengeinput.html">28</a></li></button>
+  <button type="button" class="btn btn-link" id = "day29" value = 29><li><a href="challengeinput.html">29</a></li></button>
+  <button type="button" class="btn btn-link" id = "day 30" value=30><li><a href="challengeinput.html">30</a></li></button>
+  <button type="button" class="btn btn-link" id = "day 31" value=31><li><a href="challengeinput.html">31</a></li></button>
 </ul>
  </div>   
 </div>

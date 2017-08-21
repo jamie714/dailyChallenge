@@ -44,10 +44,28 @@ function correctDays(){
     }
     else{
         var day = document.getElementById("day31");
-        day.innerHTML = '31';
+        day.innerHTML = day.value;
         var day2 = document.getElementById('day30');
-        day2.innerHTML = '30'
+        day2.innerHTML = day2.value;
     }
 }
 
-/*window.onload = function(){correctDays()};*/
+function getDayNum(day){
+    dayNum = day;
+    return day;
+}
+
+function getIndex(monthNum, dayNum){
+    var indexNum = 0;
+    if(monthNum = 1){
+        indexNum = 31;
+    }
+    else if(monthNum = 1){
+        indexNum = 60;
+    }
+    else if(monthNum = 2){
+        indexNum = 91;
+    }
+    indexNum = indexNum + dayNum;
+    return(indexNum);
+}

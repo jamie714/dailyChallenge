@@ -76,9 +76,8 @@
                 if(inputThing == idate){
                     console.log(dates["database"][i]["Date"]);
                     dateFound = true;
-                    document.write(dates["database"][i]["Date"] + "<br />");
-                    document.write(dates["database"][i]["National Day"] + "<br />");
-                    document.write(dates["database"][i]["Associated Challenge"] + "<br />");
+                    document.getElementById("logDate").innerHTML = dates["database"][i]["Date"];
+                    document.getElementById("logNatDay").innerHTML = dates["database"][i]["National Day"]; document.getElementById("logChallenge").innerHTML =dates["database"][i]["Associated Challenge"];
                 };
             };
             if(dateFound == false){
@@ -87,7 +86,7 @@
         };
     </script>
     
-    <!--<nav class="navbar navbar-defautlt">
+    <nav class="navbar navbar-defautlt">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Daily Challenge</a>
@@ -99,7 +98,7 @@
         <li><a href="aboutus.html">About Us</a></li>
     </ul>
 </div>
-    </nav>-->
+    </nav>
     
   <div class="input-group">
       <input type="search" class="form-control" placeholder="Search for a date" name="search" id="searchInput" value = "">
@@ -107,9 +106,18 @@
         <button onclick="search()"  type="submit" ><i class="glyphicon glyphicon-search"></i></button>
       </div>
     </div>
-<p id="log"></p>
+
     
     <p>Using the search bar above, look for any day's significance and holiday. Please enter the date in the format "day-month" where the day is a Roman numeral and the month is abbreviated to the first three letters of the month's name. Example: January 1st = 1-Jan; March 24 = 24-Mar.</p>
+    
+<div class="output-group">
+    <h2>Date:</h2>
+    <p id="logDate"></p>
+    <h2>National Day:</h2>
+    <p id="logNatDay"></p>
+    <h2>Challenge:</h2>
+    <p id="logChallenge"></p>
+    </div>
 
     
     <!--var parsed = JSON.parse("dates");

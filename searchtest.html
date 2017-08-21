@@ -2,9 +2,9 @@
 <html lang="en">
 <title> Search </title>
 <head>
-    <link rel="icon" 
+    <!--<link rel="icon" 
       type="image/png" 
-      href="/Users/gwc/Desktop/pix/UFO.png" >
+      href="/Users/gwc/Desktop/pix/UFO.png" >-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -64,17 +64,21 @@
 </head>
 <body >
     <script>
-        var inputThing = document.getElementById("searchInput").value;
+        
         function search(){
-            console.log("function");
+            var dateFound = false;
+            var inputThing = document.getElementById("searchInput").value;
+            
             for (var i = 0; i<5; i++){
-                console.log('loop');
-                console.log(inputThing);
-                document.getElementById("log").innerHTML = inputThing;
-                if(dates["database"][0]["Date"] === toString(inputThing)){
-                    
+               var idate = " " + dates["database"][i]["Date"];
+                if(inputThing == idate){
+                    console.log(dates["database"][i]["Date"]);
+                    dateFound = true;
                 };
             };
+            if(dateFound == false){
+                console.log("Not correct syntax!");
+                };    
         };
     </script>
   <div class="input-group">

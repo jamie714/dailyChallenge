@@ -12,13 +12,7 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- <!--<script type = "text/javascript" src = "helpme.json">
-    function load(){
-        console.log("There there");
-        var myData = JSON.parse("dates");
-    }
-    </script>
-    <script type="text/javascript" src = "pleaseHelp.js"></script>-->
+ 
 <script>
     dates = {
   "database": [
@@ -76,8 +70,10 @@
                 if(inputThing == idate){
                     console.log(dates["database"][i]["Date"]);
                     dateFound = true;
-                    document.getElementById("logDate").innerHTML = dates["database"][i]["Date"];
+                    document.getElementById("logDate").innerHTML = "Challenge For: " + dates["database"][i]["Date"];
                     document.getElementById("logNatDay").innerHTML = dates["database"][i]["National Day"]; document.getElementById("logChallenge").innerHTML =dates["database"][i]["Associated Challenge"];
+                    document.getElementById("logResDes").innerHTML = dates["database"][i]["Resources: description"];
+                    document.getElementById("logResLink").innerHTML = dates["database"][i]["Resources: link"];
                 };
             };
             if(dateFound == false){
@@ -108,32 +104,59 @@
     </div>
 
     
-    <p>Using the search bar above, look for any day's significance and holiday. Please enter the date in the format "day-month" where the day is a Roman numeral and the month is abbreviated to the first three letters of the month's name. Example: January 1st = 1-Jan; March 24 = 24-Mar.</p>
+<p>Using the search bar above, look for any day's significance and holiday. Please enter the date in the format "day-month" where the day is a Roman numeral and the month is abbreviated to the first three letters of the month's name. Example: January 1st = 1-Jan; March 24 = 24-Mar.</p>
     
-<div class="output-group">
-    <h2>Date:</h2>
-    <p id="logDate"></p>
-    <h2>National Day:</h2>
-    <p id="logNatDay"></p>
-    <h2>Challenge:</h2>
-    <p id="logChallenge"></p>
-    </div>
+<div class="container text-center">
+  
+    <h3 id="logDate">Challenge For: </h3>
+    <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          What's the Occasion?
+        </a>
+      </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body" id ="logNatDay">
+            Today is *****
+          </div>
+        </div>
+      </div>
+      <!-- end of panel -->
 
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingTwo">
+          <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Your Daily Challenge
+        </a>
+      </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body" id="logChallenge">
+           Your challenge is to *****
+          </div>
+        </div>
+      </div>
+      <!-- end of panel -->
+
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Resources
+        </a>
+      </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+              <p id="logResDes">Want to learn more about *****</p>
+              <p id="logResLink">Here's a link!</p>
+          </div>
+        </div>
+      </div>
     
-    <!--var parsed = JSON.parse("dates");
-    var input = document.getElementById("searchInput").innerHTML;
-    conso   le.log("I am here")
-        
-    
-    document.getElementById("btn").onclick = function() {console.log("I am here");
-        var i = 0;
-    for (i = 0; i < 5; i++) {
-        if (parsed[database][i]["Date"] === input) {
-            console.log("It worked!!!");
-        }
-    }
-    };
-    </script>
-   -->
 </body>
 </html>    

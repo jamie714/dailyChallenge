@@ -72,7 +72,7 @@
             var inputThing = document.getElementById("searchInput").value;
             
             for (var i = 0; i<5; i++){
-               var idate = " " + dates["database"][i]["Date"];
+               var idate = dates["database"][i]["Date"];
                 if(inputThing == idate){
                     console.log(dates["database"][i]["Date"]);
                     dateFound = true;
@@ -87,7 +87,7 @@
         };
     </script>
     
-    <nav class="navbar navbar-defautlt">
+    <!--<nav class="navbar navbar-defautlt">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Daily Challenge</a>
@@ -99,10 +99,10 @@
         <li><a href="aboutus.html">About Us</a></li>
     </ul>
 </div>
-    </nav>
+    </nav>-->
     
   <div class="input-group">
-      <input type="search" class="form-control" placeholder="Search" name="search" id="searchInput" value = "Search for a date">
+      <input type="search" class="form-control" placeholder="Search for a date" name="search" id="searchInput" value = "">
       <div class="input-group-btn">
         <button onclick="search()"  type="submit" ><i class="glyphicon glyphicon-search"></i></button>
       </div>

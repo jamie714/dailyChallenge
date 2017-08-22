@@ -1934,89 +1934,123 @@ dates = {
     "Resources: link": "https://www.buzzfeed.com/volvo/what-should-you-name-your-car-actually?utm_term=.fvbVXyQYD#.ywQzwADVB"
     },
     {
-    "Date": "3-Oct",
-    "National Day": "National techies day and National Look at the Leaves Day",
-    "Associated Challenge": "Try to learn how to code and/or appreciate some fall foliage in your area!"
+      "Date": "3-Oct",
+      "National Day": "National techies day and National Look at the Leaves Day",
+      "Associated Challenge": "Try to learn how to code and/or appreciate some fall foliage in your area!",
+      "Resources: description": "Codeacademy is a great start to learning how to code!",
+      "Resources: link": "https://www.codecademy.com/"
     },
     {
-    "Date": "4-Oct",
-    "National Day": "National Golf Day",
-    "Associated Challenge": "Play a round of golf with someone you know who loves golf and/or watch a golf competition(live or tv- bonus points for staying awake through the entire competition)"
+      "Date": "4-Oct",
+      "National Day": "National Golf Day",
+      "Associated Challenge": "Play a round of golf with someone you know who loves golf and/or watch a golf competition(live or tv- bonus points for staying awake through the entire competition)",
+      "Resources: description": "Here's a website to find where you can watch golf live.",
+      "Resources: link": "http://www.golfchannel.com/"
     },
     {
-    "Date": "5-Oct",
-    "National Day": "World Teachers Day and Do Something Nice Day",
-    "Associated Challenge": "Do something nice for a teacher of yours, or someone who has taught you something in your life. Make it personal to them and show how much you appreciate them."
+      "Date": "5-Oct",
+      "National Day": "World Teachers Day and Do Something Nice Day",
+      "Associated Challenge": "Do something nice for a teacher of yours, or someone who has taught you something in your life. Make it personal to them and show how much you appreciate them.",
+      "Resources: description": "Here's some ideas for how to show appreciation:",
+      "Resources: link": "https://www.pinterest.com/signupdotcom/teacher-appreciation/"
     },
     {
-    "Date": "6-Oct",
-    "National Day": "Garlic Lovers Day and National Noodle Day",
-    "Associated Challenge": "Make a fancy noodle recipie that has garlic in it(bonus points if there is more garlic than noodle)"
+      "Date": "6-Oct",
+      "National Day": "Garlic Lovers Day and National Noodle Day",
+      "Associated Challenge": "Make a fancy noodle recipie that has garlic in it(bonus points if there is more garlic than noodle)",
+      "Resources: description": "Here's an easy recipe for garlic noodles!",
+      "Resources: link": "http://rasamalaysia.com/garlic-noodles-recipe/"
     },
     {
-    "Date": "7-Oct",
-    "National Day": "National Flower Day and National Frappe Day and National Bath Day",
-    "Associated Challenge": "Treat yo-self! Get/make a delicious frappe, arrange a nice bouquet for a centerpiece and/or just to have nearby, and take a bubble bath."
+      "Date": "7-Oct",
+      "National Day": "National Flower Day and National Frappe Day and National Bath Day",
+      "Associated Challenge": "Treat yo-self! Get/make a delicious frappe, arrange a nice bouquet for a centerpiece and/or just to have nearby, and take a bubble bath.",
+      "Resources: description": "Here's a nice mocha frappe recipe!",
+      "Resources: link": "http://www.myrecipes.com/recipe/mocha-frapp"
     },
     {
-    "Date": "8-Oct",
-    "National Day": "World Octopus Day",
-    "Associated Challenge": "Try to eat something with octopus in it OR go to an aquarium!"
+      "Date": "8-Oct",
+      "National Day": "World Octopus Day",
+      "Associated Challenge": "Try to eat something with octopus in it OR go to an aquarium!",
+      "Resources: description": "Here's a website with some facts about octopi:",
+      "Resources: link": "https://www.livescience.com/55478-octopus-facts.html"
     },
     {
-    "Date": "9-Oct",
-    "National Day": "National Sneakers day and National Moldy Cheese Day",
-    "Associated Challenge": "Get the dirtiest sneakers you can find and put some moldy cheese in it. Then, either put it in a bag and dare people to small it and guess what it is OR you have to smell it."
+      "Date": "9-Oct",
+      "National Day": "National Sneakers day and National Moldy Cheese Day",
+      "Associated Challenge": "Get the dirtiest sneakers you can find and put some moldy cheese in it. Then, either put it in a bag and dare people to small it and guess what it is OR you have to smell it.",
+      "Resources: description": "Here's how to tell when you should and should not eat moldy cheese.",
+      "Resources: link": "http://lifehacker.com/5877588/when-you-should-and-shouldnt-eat-moldy-cheese"
     },
     {
-    "Date": "10-Oct",
-    "National Day": "World Mental Health Day and National Angel Food Cake Day",
-    "Associated Challenge": "Get some Angel Food Cake and share it with someone you know who has been having a tough time lately"
+      "Date": "10-Oct",
+      "National Day": "World Mental Health Day and National Angel Food Cake Day",
+      "Associated Challenge": "Get some Angel Food Cake and share it with someone you know who has been having a tough time lately",
+      "Resources: description": "Here's a recipe for angel food cake:",
+      "Resources: link": "http://allrecipes.com/recipe/7324/angel-food-cake-i/"
     },
     {
-    "Date": "11-Oct",
-    "National Day": "National It's My Party Day",
-    "Associated Challenge": "Have a party! It can be big or small, but either have some people over or get a group to go out. Either way, go have fun!"
+      "Date": "11-Oct",
+      "National Day": "National It's My Party Day",
+      "Associated Challenge": "Have a party! It can be big or small, but either have some people over or get a group to go out. Either way, go have fun!",
+      "Resources: description": "Here's some guidelines on party-throwing:",
+      "Resources: link": "http://www.wikihow.com/Throw-a-Party"
     },
     {
-    "Date": "12-Oct",
-    "National Day": "International Moment Of Frustration Scream Day",
-    "Associated Challenge": "Whenever you feel frustrated, just let out a scream. Encourage others to join in as will."
+      "Date": "12-Oct",
+      "National Day": "International Moment Of Frustration Scream Day",
+      "Associated Challenge": "Whenever you feel frustrated, just let out a scream. Encourage others to join in as well.",
+      "Resources: description": "Here's some examples:",
+      "Resources: link": "https://www.youtube.com/watch?v=l-iIfi3SNpw"
     },
     {
-    "Date": "13-Oct",
-    "National Day": "Freethought Day",
-    "Associated Challenge": "Say everything that comes to your head, no matter what. Especially if it's awkward."
+      "Date": "13-Oct",
+      "National Day": "Freethought Day",
+      "Associated Challenge": "Say everything that comes to your head, no matter what. Especially if it's awkward.",
+      "Resources: description": "Here's some background on freethought:",
+      "Resources: link", "https://rationalwiki.org/wiki/Freethought"
     },
     {
-    "Date": "14-Oct",
-    "National Day": "Be Bald and Free Day and National Dessert Day",
-    "Associated Challenge": "Wear a bald cap and give dessert to all the bald people you know in your life. If you are bald, then go get yur favorite dessert:)"
+      "Date": "14-Oct",
+      "National Day": "Be Bald and Free Day and National Dessert Day",
+      "Associated Challenge": "Wear a bald cap and give dessert to all the bald people you know in your life. If you are bald, then go get your favorite dessert:)",
+      "Resources: description": "Here's an article about bald pride",
+      "Resources: link": "http://www.nytimes.com/1985/04/14/magazine/bald-pride.html?mcubz=1"
     },
     {
-    "Date": "15-Oct",
-    "National Day": "White Cane Safety Day",
-    "Associated Challenge": "Visit someone you know who is blind or visually impaired and help them for the day. If you don't know anyone like that, then donate to an organisation for the visually impaired."
+      "Date": "15-Oct",
+      "National Day": "White Cane Safety Day",
+      "Associated Challenge": "Visit someone you know who is blind or visually impaired and help them for the day. If you don't know anyone like that, then donate to an organisation for the visually impaired.",
+      "Resources: description": Here's some info so you can gain a greater apprectiation for the struggles faced by the visually impaired:",
+      "Resources: link": "http://www.livestrong.com/article/241936-challenges-that-blind-people-face/"
     },
     {
-    "Date": "16-Oct",
-    "National Day": "Dictionary Day",
-    "Associated Challenge": "Look up 4 random words in the dictionary that you dont already know. Then, use them at some point in the day."
+      "Date": "16-Oct",
+      "National Day": "Dictionary Day",
+      "Associated Challenge": "Look up 4 random words in the dictionary that you dont already know. Then, use them at some point in the day.",
+      "Resources: description": "Here's a bunch of cool words you should know:",
+      "Resources: link": "http://destinationfemme.com/100-words-know-expand-vocabulary/"
     },
     {
-    "Date": "17-Oct",
-    "National Day": "Gaudy Day",
-    "Associated Challenge": "Wear at least 12 gaudy accessories, and when someone asks you about it, say \"you wish you looked this fabulous\""
+      "Date": "17-Oct",
+      "National Day": "Gaudy Day",
+      "Associated Challenge": "Wear at least 12 gaudy accessories, and when someone asks you about it, say \"you wish you looked this fabulous\",
+      "Resources: description": "Here's some fantastic examples of over-the-top bling:",
+      "Resources: link": "http://www.wonderwall.com/celebrity/over-the-top-celebrity-bling-26799.gallery"
     },
     {
-    "Date": "18-Oct",
-    "National Day": "No Beard Day",
-    "Associated Challenge": "If you have a beard, shave it. If you don't have a beard. or cannot shave it for religious or otherwise reasons, wear a fake beard and pretend to shave that."
+      "Date": "18-Oct",
+      "National Day": "No Beard Day",
+      "Associated Challenge": "If you have a beard, shave it. If you don't have a beard. or cannot shave it for religious or otherwise reasons, wear a fake beard and pretend to shave that.",
+      "Resources: description": "Here's some tips from Gillette:",
+      "Resources: link": "https://gillette.com/en-us/shaving-tips/how-to-shave#facets:/category:how-to-shave/page:1/sortby:Article Featured Sort/tilescount:0/displayedarticlescount:9/cwidth:/displayedpromocount:0/promotilesenabled:false/ascroll:"
     },
     {
-    "Date": "19-Oct",
-    "National Day": "Evaluate your Life Day",
-    "Associated Challenge": "Evaluate your life, and how happy you currently are. See if there's anything you would want to change. If so, pick one, and try to outline a realistic process for achieving it."
+      "Date": "19-Oct",
+      "National Day": "Evaluate your Life Day",
+      "Associated Challenge": "Evaluate your life, and how happy you currently are. See if there's anything you would want to change. If so, pick one, and try to outline a realistic process for achieving it.",
+      "Resources: description": "How to evaluate your life:",
+      "Resources: link": "http://mashable.com/2013/10/19/evaluating-life-gifs/#8yygjq8UoiqH"
     },
     {
     "Date": "20-Oct",

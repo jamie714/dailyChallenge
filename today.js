@@ -2008,7 +2008,7 @@ dates = {
       "National Day": "Freethought Day",
       "Associated Challenge": "Say everything that comes to your head, no matter what. Especially if it's awkward.",
       "Resources: description": "Here's some background on freethought:",
-      "Resources: link", "https://rationalwiki.org/wiki/Freethought"
+      "Resources: link": "https://rationalwiki.org/wiki/Freethought"
     },
     {
       "Date": "14-Oct",
@@ -2021,7 +2021,7 @@ dates = {
       "Date": "15-Oct",
       "National Day": "White Cane Safety Day",
       "Associated Challenge": "Visit someone you know who is blind or visually impaired and help them for the day. If you don't know anyone like that, then donate to an organisation for the visually impaired.",
-      "Resources: description": Here's some info so you can gain a greater apprectiation for the struggles faced by the visually impaired:",
+      "Resources: description": "Here's some info so you can gain a greater apprectiation for the struggles faced by the visually impaired:",
       "Resources: link": "http://www.livestrong.com/article/241936-challenges-that-blind-people-face/"
     },
     {
@@ -2034,7 +2034,7 @@ dates = {
     {
       "Date": "17-Oct",
       "National Day": "Gaudy Day",
-      "Associated Challenge": "Wear at least 12 gaudy accessories, and when someone asks you about it, say \"you wish you looked this fabulous\",
+      "Associated Challenge": 'Wear at least 12 gaudy accessories, and when someone asks you about it, say "you wish you looked this fabulous"',
       "Resources: description": "Here's some fantastic examples of over-the-top bling:",
       "Resources: link": "http://www.wonderwall.com/celebrity/over-the-top-celebrity-bling-26799.gallery"
     },
@@ -2062,57 +2062,79 @@ dates = {
     {
     "Date": "21-Oct",
     "National Day": "Apple Day and Celebration of the Mind Day",
-    "Associated Challenge": "Read something about apples, and eat as many apple flavored things as you can."
+    "Associated Challenge": "Read something about apples, and eat as many apple flavored things as you can.",
+    "Resources: description": "Here's some apple info:",
+    "Resources: link": "http://www.healthy-aging-for-women-babyboomers.com/apple-fruit.html"
     },
     {
     "Date": "22-Oct",
     "National Day": "National Nut Day",
-    "Associated Challenge": "Try as many different nuts as you can. If you are allergic, rate every nut you can find on appearance and make a scale of nut attractiveness."
+    "Associated Challenge": "Try as many different nuts as you can. If you are allergic, rate every nut you can find on appearance and make a scale of nut attractiveness.",
+    "Resources: description": "Nuts!",
+    "Resources: link": "https://nuts.com/nuts/"
     },
     {
     "Date": "23-Oct",
     "National Day": "National Boston Cream Pie Day",
-    "Associated Challenge": "Take 2 Boston Cream Pies. Throw one in someone's face, and share the other with friends."
+    "Associated Challenge": "Take 2 Boston Cream Pies. Throw one in someone's face, and share the other with friends.",
+    "Resources: description": "Here's a Boston Cream Pie Recipe:",
+    "Resources: link": "https://www.bettycrocker.com/recipes/boston-cream-pie/866fb98f-be51-4e87-a746-86f042691094"
     },
     {
     "Date": "24-Oct",
     "National Day": "National Bologna Day",
-    "Associated Challenge": "Take a slice of bologna and eat 3 holes, 2 for your eyes and 1 for your mouth. Wear it as long as you can without anyone saying anything."
+    "Associated Challenge": "Take a slice of bologna and eat 3 holes, 2 for your eyes and 1 for your mouth. Wear it as long as you can without anyone saying anything.",
+    "Resources: description": "An example:",
+    "Resources: link": "http://imgur.com/gallery/e58WYZP"
     },
     {
     "Date": "25-Oct",
     "National Day": "Punk for a Day Day",
-    "Associated Challenge": "Dress as punk rock-y as you can! Colorful hair extentions are a must."
+    "Associated Challenge": "Dress as punk rock-y as you can! Colorful hair extentions are a must.",
+    "Resources: description": "Some guidelines:",
+    "Resources: link": "http://www.wikihow.com/Be-a-Punk"
     },
     {
     "Date": "26-Oct",
     "National Day": "National Pumpkin Day",
-    "Associated Challenge": "Carve a bunch of pumpkins and leave them all around in conspicuous places, but don't tell anyone about it."
+    "Associated Challenge": "Carve a bunch of pumpkins and leave them all around in conspicuous places, but don't tell anyone about it.",
+    "Resources: description": "Here's some ideas!",
+    "Resources: link": "https://www.pinterest.com/explore/pumpkin-carvings/"
     },
     {
     "Date": "27-Oct",
     "National Day": "Boxer Shorts Day and National Bandana Day",
-    "Associated Challenge": "Wear boxer shorts outside of your clothes and as many bandanas as you can!"
+    "Associated Challenge": "Wear boxer shorts outside of your clothes and as many bandanas as you can!",
+    "Resources: description": "Here's some ways to wear a bandana:",
+    "Resources: link": "http://www.whowhatwear.com/bandana-ways-to-wear"
     },
     {
     "Date": "28-Oct",
     "National Day": "National Chocolate Day",
-    "Associated Challenge": "Have some chocolate fondue- see what the craziest combination you can think of is, and have a competition with your friends!"
+    "Associated Challenge": "Have some chocolate fondue- see what the craziest combination you can think of is, and have a competition with your friends!",
+    "Resources: description": "Here's a recipe:",
+    "Resources: link": "http://www.foodnetwork.com/recipes/chocolate-fondue-recipe20-2117953"
     },
     {
     "Date": "29-Oct",
     "National Day": "National Cat Day and National Oatmeal Day",
-    "Associated Challenge": "Have oatmeal with at least 3 toppings! Also, whenever you see a cat, go pet it(unless it's feral)"
+    "Associated Challenge": "Have oatmeal with at least 3 toppings! Also, whenever you see a cat, go pet it(unless it's feral)",
+    "Resources: description": "Here's some topping ideas:",
+    "Resources: link": "http://homecookingmemories.com/creative-oatmeal-topping-ideas/"
     },
     {
     "Date": "30-Oct",
     "National Day": "National Buy a Doughnut Day and National Candycorn Day and National Sugar Awareness Day",
-    "Associated Challenge": "Buy a doughnut and some candy corn and then be aware of how much sugar you just bought."
+    "Associated Challenge": "Buy a doughnut and some candy corn and then be aware of how much sugar you just bought.",
+    "Resources: description": "The history of candy corn:",
+    "Resources: link": "http://www.bhg.com/halloween/recipes/the-history-of-candy-corn/"
     },
     {
     "Date": "31-Oct",
     "National Day": "National Magic and Increase Your Psychic Powers Day",
-    "Associated Challenge": "Trick someone into thinking you have magical powers using fishing line."
+    "Associated Challenge": "Trick someone into thinking you have magical powers using fishing line.",
+    "Resources: description": "How to trick them:",
+    "Resources: link": "http://www.instructables.com/id/Trick-Your-Friends-Into-Thinking-You-Have-Telekine/"
     },
     {
     "Date": "1-Nov",

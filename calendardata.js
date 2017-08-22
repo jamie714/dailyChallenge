@@ -42,17 +42,18 @@ function correctDays(){
         console.log('correctDays is working 222');
         console.log(monthNum);
     }
-    else{
+    /*else{
         var day = document.getElementById("day31");
-        day.innerHTML = day.value;
+        day.innerHTML = 31;
         var day2 = document.getElementById('day30');
-        day2.innerHTML = day2.value;
-    }
+        day2.innerHTML = 30;*/
+    
 }
-
+var dayNum;
 function getDayNum(day){
+    console.log("it runs");
     dayNum = day;
-    return day;
+    return dayNum;
 }
 
 function getIndex(monthNum, dayNum){

@@ -51,6 +51,6 @@ if (day === 0) {
 
 var fulldate = new Date();
 var day = fulldate.getDate();
-document.getElementById("DATE").innerHTML = ("Today is " + mymonth + " " + day + ". Happy " + weekday + "!");
+//document.getElementById("DATE").innerHTML = ("Today is " + mymonth + " " + day + ". Happy " + weekday + "!");
 
 

@@ -2565,7 +2565,7 @@ if (day === 0) {
 //print the date
 var fulldate = new Date();
 var day = fulldate.getDate();
-document.getElementById("DATE").innerHTML = "Today is " + mymonth + " " + day + ". Happy " + weekday + "!";
+//document.getElementById("DATE").innerHTML = ("Today is " + mymonth + " " + day + ". Happy " + weekday + "!");
 
 
 //putting the date into the right syntax for the database search

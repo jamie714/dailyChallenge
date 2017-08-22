@@ -42,12 +42,31 @@ function correctDays(){
         console.log('correctDays is working 222');
         console.log(monthNum);
     }
-    else{
+    /*else{
         var day = document.getElementById("day31");
-        day.innerHTML = '31';
+        day.innerHTML = 31;
         var day2 = document.getElementById('day30');
-        day2.innerHTML = '30'
-    }
+        day2.innerHTML = 30;*/
+    
+}
+var dayNum;
+function getDayNum(day){
+    console.log("it runs");
+    dayNum = day;
+    return dayNum;
 }
 
-/*window.onload = function(){correctDays()};*/
+function getIndex(monthNum, dayNum){
+    var indexNum = 0;
+    if(monthNum = 1){
+        indexNum = 31;
+    }
+    else if(monthNum = 1){
+        indexNum = 60;
+    }
+    else if(monthNum = 2){
+        indexNum = 91;
+    }
+    indexNum = indexNum + dayNum;
+    return(indexNum);
+}

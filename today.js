@@ -1461,7 +1461,7 @@ dates = {
     "Date": "27-Jul",
     "National Day": "National Take Your Pants For A Walk Day",
     "Associated Challenge": "Go for a long walk.",
-    "Resources: description": "Have you read this teen novel about pants?"
+    "Resources: description": "Have you read this teen novel about pants?",
     "Resources: link": "https://www.barnesandnoble.com/w/sisterhood-of-the-traveling-pants-ann-brashares/1100007925"
     },
     {
@@ -1860,7 +1860,7 @@ dates = {
     "Date": "22-Sep",
     "National Day": "Hobbit Day",
     "Associated Challenge": "Either: Lord Of The Rings marathon or dress up as your favorite hobbit all day, carry a pipe around, and speak only in LOTR quotes.",
-    "Resources: description": "Read the Wikipedia description of hobbits"
+    "Resources: description": "Read the Wikipedia description of hobbits",
     "Resources: link": "https://en.wikipedia.org/wiki/Hobbit"
     },
     {
@@ -2509,8 +2509,8 @@ dates = {
     {
     "Date": "24-Dec",
     "National Day": "National Egg Nog Day",
-    "Associated Challenge": "Attempt to make egg nog and then share it with friends!",
-    "Resources: description": "Make egg nog",
+    "Associated Challenge": "Attempt to make eggnog and then share it with friends!",
+    "Resources: description": "Make eggnog",
     "Resources: link": "http://www.food.com/recipe/egg-nog-405468"
     },
     {

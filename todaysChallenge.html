@@ -10,8 +10,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </head>
-    <body>
+</head>
+
+<body>
+    <style>
+        p{
+            padding-left: 25px;
+        }
+    </style>
+    <!--Navigation menu-->
     <nav class="navbar navbar-defautlt">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -23,8 +30,11 @@
         <li><a href="searchtest.html">Search for a Date</a></li>
         <li><a href="aboutus.html">About Us</a></li>
     </ul>
-</div>
+    </div>
     </nav>   
+        
+    <p id="DATE"></p>
+        
 <div class="container text-center">
   
     <h3>Today's Challenge</h3>
@@ -37,9 +47,11 @@
         </a>
       </h4>
         </div>
+        
+          
         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
           <div class="panel-body">
-            Today is *****
+            <p id = "TodayIs"></p>
           </div>
         </div>
       </div>
@@ -55,7 +67,7 @@
         </div>
         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
           <div class="panel-body">
-           Your challenge is to *****
+           <p id = "YourDailyChallenge"></p>
           </div>
         </div>
       </div>
@@ -71,7 +83,8 @@
         </div>
         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
           <div class="panel-body">
-            Want to learn more about *****
+            <p id="ResourcesToday"></p>
+            <p id="ResourcesLinkToday"></p>
           </div>
         </div>
       </div>
@@ -86,6 +99,9 @@
 
 </div>
 <!-- end of container -->
-<script type="text/javascript" src="today.js"></script>
+<script type="text/javascript" src="today.js">
+window.search();
+</script>
+    
 </body>
 </html>
